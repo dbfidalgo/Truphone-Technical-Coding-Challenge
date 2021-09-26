@@ -1,0 +1,154 @@
+{
+	"info": {
+		"_postman_id": "a9627460-5315-4573-8449-424c5cfa4c65",
+		"name": "Truphone - Technical Coding Challenge",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Add device",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\" : \"iPhone SE\",\r\n    \"brand\" : \"Apple\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/tech-challenge/v1/devices/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"tech-challenge",
+						"v1",
+						"devices",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get device by identifier",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/tech-challenge/v1/devices/9a099522-36a9-4393-a494-8dcc25feacfc",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"tech-challenge",
+						"v1",
+						"devices",
+						"9a099522-36a9-4393-a494-8dcc25feacfc"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "List all devices",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/tech-challenge/v1/devices",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"tech-challenge",
+						"v1",
+						"devices"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update device (full and partial) by Id",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/tech-challenge/v1/devices/9a099522-36a9-4393-a494-8dcc25feacfc",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"tech-challenge",
+						"v1",
+						"devices",
+						"9a099522-36a9-4393-a494-8dcc25feacfc"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete device by Id",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/tech-challenge/v1/devices/797af7c1-733c-42f9-8ff6-5df5cd4c8085",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"tech-challenge",
+						"v1",
+						"devices",
+						"797af7c1-733c-42f9-8ff6-5df5cd4c8085"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Search device by brand",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/tech-challenge/v1/devices?brand=Apple",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"tech-challenge",
+						"v1",
+						"devices"
+					],
+					"query": [
+						{
+							"key": "brand",
+							"value": "Apple"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
