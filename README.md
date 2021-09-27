@@ -1,6 +1,6 @@
 # Truphone---Technical-Coding-Challenge
 
-Truphone Tech Assessment | Backend Software Engineer - RSP
+## Truphone Tech Assessment | Backend Software Engineer - RSP
 
 In order to organise my code I tried to follow the SOLID principles of JAVA for object-oriented architectures. Let me break my code down for you very briefly:
 
@@ -16,4 +16,6 @@ Here's a diagram to help:
 ![image](https://user-images.githubusercontent.com/89163592/134897087-0c93b400-ade4-4960-b60b-87ea50cf293d.png)
 
 
-In this GIT repo, you may find the project folder within the source code application and a Postman collection with all the operations/requests pre-set to be used
+In this GIT repo, you may find the project folder within the source code application and a Postman collection with all the operations/requests pre-set to be used.
+
+👍
