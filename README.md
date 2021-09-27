@@ -18,4 +18,10 @@ Here's a diagram to help:
 
 In this GIT repo, you may find the project folder within the source code application and a Postman collection with all the operations/requests pre-set to be used.
 
+**Missing/Future actions:**
+- Connect the Data Access Layer to a real DB
+- Implement the PUT request with request body and returning the object updated
+- Return JSON responses when a Device is created/deleted/updated
+- Improve code and variables naming
+
 👍
