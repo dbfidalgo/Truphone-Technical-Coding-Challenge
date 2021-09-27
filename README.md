@@ -9,7 +9,10 @@ In order to organise my code I tried to follow the SOLID principles of JAVA for 
 2. **Service Layer** - This layer handles the business logic/the rules for this application. In this case, implements the list of operations required with all the validations included and forward the request to the Data Access layer.
 
 3. **Data Access Layer** - The main purpose of this layer is to contain logic that performs CRUD (Create Read, Update, Delete) operations against the data repository/database.
-For example receive a device from the service layer and insert into the database/repository. Note: For this challenge and to represent a DB, I used a Java Collection - HashMap to store my devices information. 
+For example receive a device from the service layer and insert into the database/repository. 
+
+**Note:** For this challenge and to represent a DB, I used a Java Collection - HashMap to store my devices information. Inside the constructor there is a private method called *init()* that creates a few dummy devices for tests purpose.
+
 
 Here's a diagram to help:
 
