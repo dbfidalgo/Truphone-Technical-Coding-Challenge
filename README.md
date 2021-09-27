@@ -19,9 +19,18 @@ Here's a diagram to help:
 In this GIT repo, you may find the project folder within the source code application and a Postman collection with all the operations/requests pre-set to be used.
 
 **Missing/Future actions:**
+- Implement tests
 - Connect the Data Access Layer to a real DB
 - Implement the PUT request with request body and returning the object updated
 - Return JSON responses when a Device is created/deleted/updated
 - Improve code and variables naming
+
+**To Build the Maven project:**
+Go to the mvn project folder and run the command: mvn package
+
+This command will compile the code and package it as a JAR.
+
+**To run the JAR:**
+You may test the compiled and packaged JAR with the command: java -jar target/technical-challenge-0.0.1-SNAPSHOT.jar
 
 👍
